@@ -6879,9 +6879,16 @@ button.close {
   margin: 0 auto;
 }
 .product-image-bg .product-sale {
+  display: none;
   position: absolute;
   top: 0;
   left: 12px;
+}
+.product-image-bg .product-sale.sale-on {
+  display: block;
+}
+.product-image-bg .product-sale.sale-off {
+  display: none;
 }
 .product-desc {
   position: relative;

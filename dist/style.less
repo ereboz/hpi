@@ -222,9 +222,18 @@
       }
 
     .product-sale {
+        display: none;
         position: absolute;
         top: 0;
         left: 12px;
+
+        &.sale-on {
+            display: block;
+        }
+
+        &.sale-off {
+            display: none;
+        }
     }
 }
 
