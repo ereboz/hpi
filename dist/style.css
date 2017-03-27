@@ -6726,10 +6726,6 @@ button.close {
     width: 1012px;
   }
 }
-.row {
-  margin-right: 0;
-  margin-left: 0;
-}
 .btn {
   color: #000000;
   background-color: #f3f5f6;
@@ -6861,6 +6857,9 @@ button.close {
 }
 .product-slider {
   margin-bottom: 50px;
+}
+.product-slider .controls {
+  margin-right: 13px;
 }
 .product-wrapper {
   border: 1px solid #e0e0e0;
